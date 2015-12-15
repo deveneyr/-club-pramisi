@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+    <title>Club Pramisi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel ="stylesheet">
+    <link href="main.css" rel ="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+
+        <a href="#" class="navbar-brand">Club Pramisi</a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+
+            <ul class ="nav navbar-nav navbar-right">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overons.html">Over Ons</a></li>
+                <li class="dropdown">
+
+                    <a href="onzediensten.html" class="dropdown-toggle active" data-toggle="dropdown">Onze Diensten <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="gerechten.html" class="active">Gerechten</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+<div class="headergerechten">
+<header>Bestelformulier</header>
+</div>
+
+<div class="headerbestel">
+
+
+<form method="post" action="">
+    Voornaam:        <input type="text" name="name"> <br>
+
+    Achternaam:      <input type="text" name="name"> <br>
+
+    Telefoonnummer:      <input type="text" name="name"> <br>
+
+    E-mailadres:        <input type="text" name="name"> <br>
+
+    Straatnaam:         <input type="text" name="name"> <br>
+
+    Postcode:        <input type="text" name="name"> <br>
+
+    Huisnr. + toevoeging:        <input type="text" name="name"> <br>
+
+    Woonplaats:         <input type="text" name="name"> <br>
+    </form>
+</div>
+
+<div class="listgerechten">
+
+    <div class="row">
+        <div class="col-md-3" style="background-color:#f5e79e;">
+            1.Gerecht + omschrijving:<br>
+            <select name = "ddl">
+                <option value="item1">5-10 personen</option>
+                <option value="item2">10-15 personen</option>
+                <option value="item3">15-20 personen</option>
+                <option value="item4">20-35 personen</option>
+                <option value="item5">35-45 personen</option>
+                <option value="item6">45-60 personen</option>
+                <option value="item7">60+ personen</option>
+            </select>
+            </form>
+
+            <form method="post" action="">
+                2.Gerecht + omschrijving<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+            </form>
+
+            <form method="post" action="">
+                3.Gerecht + omschrijving<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+            </form>
+
+            <form method="post" action="">
+                4.Gerecht + omschrijving<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+            </form>
+
+            <form method="post" action="">
+                5.Gerecht + omschrijving<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+            </form>
+
+            <form method="post" action="">
+                6.Gerecht + omschrijving<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+            </form>
+        </div>
+            <div class="col-md-3" style="background-color:#f5e79e;">   1.Gerecht + omschrijving:<br>
+                <select name = "ddl">
+                    <option value="item1">5-10 personen</option>
+                    <option value="item2">10-15 personen</option>
+                    <option value="item3">15-20 personen</option>
+                    <option value="item4">20-35 personen</option>
+                    <option value="item5">35-45 personen</option>
+                    <option value="item6">45-60 personen</option>
+                    <option value="item7">60+ personen</option>
+                </select>
+                </form>
+
+                <form method="post" action="">
+                    2.Gerecht + omschrijving<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                </form>
+
+                <form method="post" action="">
+                    3.Gerecht + omschrijving<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                </form>
+
+                <form method="post" action="">
+                    4.Gerecht + omschrijving<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                </form>
+
+                <form method="post" action="">
+                    5.Gerecht + omschrijving<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                </form>
+
+                <form method="post" action="">
+                    6.Gerecht + omschrijving<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                </form>
+            </div>
+                <div class="col-md-3" style="background-color:#f5e79e;">   1.Gerecht + omschrijving:<br>
+                    <select name = "ddl">
+                        <option value="item1">5-10 personen</option>
+                        <option value="item2">10-15 personen</option>
+                        <option value="item3">15-20 personen</option>
+                        <option value="item4">20-35 personen</option>
+                        <option value="item5">35-45 personen</option>
+                        <option value="item6">45-60 personen</option>
+                        <option value="item7">60+ personen</option>
+                    </select>
+                    </form>
+
+                    <form method="post" action="">
+                        2.Gerecht + omschrijving<br>
+                        <select name = "ddl">
+                            <option value="item1">5-10 personen</option>
+                            <option value="item2">10-15 personen</option>
+                            <option value="item3">15-20 personen</option>
+                            <option value="item4">20-35 personen</option>
+                            <option value="item5">35-45 personen</option>
+                            <option value="item6">45-60 personen</option>
+                            <option value="item7">60+ personen</option>
+                        </select>
+                    </form>
+
+                    <form method="post" action="">
+                        3.Gerecht + omschrijving<br>
+                        <select name = "ddl">
+                            <option value="item1">5-10 personen</option>
+                            <option value="item2">10-15 personen</option>
+                            <option value="item3">15-20 personen</option>
+                            <option value="item4">20-35 personen</option>
+                            <option value="item5">35-45 personen</option>
+                            <option value="item6">45-60 personen</option>
+                            <option value="item7">60+ personen</option>
+                        </select>
+                    </form>
+
+                    <form method="post" action="">
+                        4.Gerecht + omschrijving<br>
+                        <select name = "ddl">
+                            <option value="item1">5-10 personen</option>
+                            <option value="item2">10-15 personen</option>
+                            <option value="item3">15-20 personen</option>
+                            <option value="item4">20-35 personen</option>
+                            <option value="item5">35-45 personen</option>
+                            <option value="item6">45-60 personen</option>
+                            <option value="item7">60+ personen</option>
+                        </select>
+                    </form>
+
+                    <form method="post" action="">
+                        5.Gerecht + omschrijving<br>
+                        <select name = "ddl">
+                            <option value="item1">5-10 personen</option>
+                            <option value="item2">10-15 personen</option>
+                            <option value="item3">15-20 personen</option>
+                            <option value="item4">20-35 personen</option>
+                            <option value="item5">35-45 personen</option>
+                            <option value="item6">45-60 personen</option>
+                            <option value="item7">60+ personen</option>
+                        </select>
+                    </form>
+
+                    <form method="post" action="">
+                        6.Gerecht + omschrijving<br>
+                        <select name = "ddl">
+                            <option value="item1">5-10 personen</option>
+                            <option value="item2">10-15 personen</option>
+                            <option value="item3">15-20 personen</option>
+                            <option value="item4">20-35 personen</option>
+                            <option value="item5">35-45 personen</option>
+                            <option value="item6">45-60 personen</option>
+                            <option value="item7">60+ personen</option>
+                        </select>
+                    </form>
+                </div>
+                    </div>
+</div>
+
+<div class="wensen">
+<textarea name="myTextBox" cols="50" rows="5">
+Hebben uw gasten bepaalde dieetwensen of heeft u nog vragen?
+</textarea>
+</div>
+<div class="terms">
+    <input type="checkbox" name="tc" value="ok">
+    Ik verklaar dit formulier naar waarheid ingevuld te hebben en accepteer de T&C. <br>
+</div>
+<div class="submit">
+<input type="submit" name="verzenden" value="submit">
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+
+    <div class="container">
+        <p class="navbar-text">&copy; Deveney Rudge 2015</p>
+    </div>
+
+</div>
+
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+<script src ="js/bootstrap.js"></script>
+
+</body>
+</html>
